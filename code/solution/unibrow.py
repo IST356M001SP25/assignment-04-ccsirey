@@ -25,8 +25,7 @@ if file:
     else:
         df_show = df[selected_cols]
     
-    st.dataframe(df_show)
-    st.dataframe(df_show.describe())
+    
 
 
 
